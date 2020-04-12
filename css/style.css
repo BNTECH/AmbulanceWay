@@ -409,10 +409,11 @@ ul, ol {
 }
 .marking
 {
-	background: #242deb;
-	color:white;
+	background: white;
+	color:black;
 	font-family: Comic Sans MS;
 	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 .txtbox
 {
@@ -453,6 +454,12 @@ ul, ol {
 	border: 2px solid white;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.btns:hover
+{
+	background: white;
+	color:black;
+	border: 1px solid white;
 }
 .hero-text .ht-cata {
 	display: inline-block;
